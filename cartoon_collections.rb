@@ -18,6 +18,8 @@ end
 def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each { |cheese|
-    list.include?(cheese)
+    if list.include?(cheese) == true
+      return cheese
+    end
   }
 end
