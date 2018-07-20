@@ -22,4 +22,5 @@ def find_the_cheese(list)
       return cheese
     end
   }
+  return nil
 end
